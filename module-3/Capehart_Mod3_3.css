@@ -1,0 +1,58 @@
+#container {
+    margin: 50px 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#book-list,
+#learned-list {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+ol {
+    font-weight: 300;
+}
+
+#book-list {
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#book-list ol {
+    padding: 10px;
+    list-style-position: inside;
+}
+
+#learned-list {
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#learned-list ol {
+    padding: 10px;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+#bottom-div {
+    width: 100%;
+    margin-top: 60%;
+    margin-bottom: 20px;
+    float: right;
+}
+
+a:hover {
+    text-decoration: underline;
+}
